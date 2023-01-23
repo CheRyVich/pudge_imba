@@ -3,7 +3,7 @@
 $conn = mysqli_connect("localhost", "root", "", "syte");
 $sql = "SELECT *FROM `Users`";
    $result = $conn->query($sql); 
-
+   //ыаааааааа
    // В цикле перебираем все записи таблицы и выводим их
    while ($row = $result->fetch_assoc())
    {
